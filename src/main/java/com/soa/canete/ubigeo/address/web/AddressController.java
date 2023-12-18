@@ -11,7 +11,6 @@ import reactor.core.publisher.Flux;
 
 @RestController
 @RequestMapping(value = "/api/address")
-@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RequiredArgsConstructor
 public class AddressController {
 
